@@ -18,7 +18,7 @@ document.addEventListener("keydown", function (e) {
 */
 
 document.addEventListener("DOMContentLoaded", function () {
-  const audio = new Audio("./sound/love.mp3");
+  const audio = new Audio("./sound/song1.mp3");
 
   const playAudio = () => {
     audio.play().catch((error) => {
